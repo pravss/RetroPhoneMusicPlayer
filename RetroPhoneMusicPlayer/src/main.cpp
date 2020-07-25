@@ -107,7 +107,7 @@ void setup()
 
   //mp3
   mp3.begin();
-  mp3.setVolume(10);
+  mp3.setVolume(17);
   mp3.setEq(DfMp3_Eq_Normal);
   uint16_t volume = mp3.getVolume();
   Serial.print("volume ");
